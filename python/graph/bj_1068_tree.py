@@ -3,6 +3,10 @@ def solution():
     sys.setrecursionlimit(100000)
     
     n = int(input())
+    
+    if n == 1:
+        print(0)
+        return
 
     parent = list(map(int, sys.stdin.readline().rstrip().split()))
 

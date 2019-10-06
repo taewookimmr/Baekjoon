@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Poly",
+            "request": "launch",
+            "mainClass": "app.Poly",
+            "projectName": "Call"
+        }
+    ]
+}

@@ -1,5 +1,16 @@
 package app;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.PriorityQueue;
+import java.util.Scanner;
+import java.util.Set;
+
 public class Main {
     public static void main(String[] args) throws Exception {
         BJ_1152();
@@ -118,6 +129,9 @@ public class Main {
         System.out.println(count);
     }
 
+
+    public static int conv(int a){return 15-a;}
+
     public static void BJ_1475(){
         Scanner sc = new Scanner(System.in);
         String numword = sc.nextLine();
@@ -155,7 +169,7 @@ public class Main {
         System.out.println(pack);
     }
 
-    public static int cov(int a){return 15-a;}
+    
 
     public static void BJ_1764(){
         Scanner sc = new Scanner(System.in);

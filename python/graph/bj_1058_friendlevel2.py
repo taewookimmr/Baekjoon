@@ -1,13 +1,13 @@
 def solution():
     import sys
     n = int(input())
-    m = int(input())
     graph = [[] for _ in range(n+1)]
     check = [0 for _ in range(n+1)]
-    for _ in range(m):
-        v1, v2 = list(map(int, sys.stdin.readline().rstrip().split()))
-        graph[v1].append(v2)
-        graph[v2].append(v1)
+    for v1 in range(n):
+        mystring = sys.stdin.readline().rstrip()
+        for v2, m in enumerate(mystring):
+            if m == "Y":
+                graph[v1].append(v2)
     
     queue = []
     queue.append([1, 0]) # index, level
