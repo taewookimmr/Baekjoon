@@ -27,4 +27,4 @@ def other_solution():
     recursive()
 
 
-solution()
+other_solution()
