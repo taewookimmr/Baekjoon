@@ -1,5 +1,4 @@
-def solution():
-    n = int(input())
+def solution(n):
     if n == 1:
         return [1]
 
@@ -29,20 +28,23 @@ def solution():
     return answer 
         
 
-def solution2():
-    n = int(input()) 
+def solution2(n):
     answer = [0 for _ in range(n+1)]
     for i in range(1, n):
         j = i
         while j >1 :
-            print(answer, "what")
             answer[j] = answer[j//2]
             j //= 2
         answer[1] = i+1
     answer[n] =1
     
-    return answer
+    return answer[1:]
     
-    
-solution2()
-    
+def main():
+    for n in range(1, 10000):
+        a = solution(n)
+        b = solution2(n)
+        c = sum([e-d for e, d in zip(a,b)])
+        print(n, c)
+    print("in the end")
+main()
