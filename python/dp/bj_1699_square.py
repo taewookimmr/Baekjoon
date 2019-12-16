@@ -1,4 +1,4 @@
-def solution():
+def solution_recursive():
     n = int(input())
     dp = [0 for _ in range(n+1)]
     
@@ -21,6 +21,16 @@ def solution():
                 
     recur(n)
     print(dp)
+    print(dp[n])
+
+def solution():
+    n = int(input())
+    dp = [i for i in range(n+1)]
+    for i in range(2, n+1):
+        j = 2
+        while j*j <=i :
+            dp[i] = min(dp[i], dp[i-j*j]+1)
+            j+=1
     print(dp[n])
 
 solution()
