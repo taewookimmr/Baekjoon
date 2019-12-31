@@ -10,7 +10,8 @@
     위와 같이 define했으니 dp[0]을 구하는 것이 목적이다.
     ```python
     def solution_simple():
-        dp = [0]*(int(input())+1) 
+        n = int(input())
+        dp = [0]*(n+1) 
         packs = list(map(int, input().rstrip().split()))
         for i in range(n, -1, -1):
             for j, p in enumerate(packs):
