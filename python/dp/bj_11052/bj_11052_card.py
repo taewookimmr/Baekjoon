@@ -1,15 +1,13 @@
 def solution_simple():
-    dp = [0]*(int(input())+1) 
+    n = int(input())
+    dp = [0]*(n+1) 
     packs = list(map(int, input().rstrip().split()))
-
     for i in range(n, -1, -1):
         for j, p in enumerate(packs):
             if i-(j+1) >= 0:
-                dp[i-(j+1)] = max(dp[i-(j+1)], dp[i] + p)
-                
+                dp[i-(j+1)] = max(dp[i-(j+1)], dp[i] + p)           
     print(int(dp[0]))
    
-
 def solution_1st_trial():
     n = int(input())
     packs = list(map(int, input().rstrip().split()))
