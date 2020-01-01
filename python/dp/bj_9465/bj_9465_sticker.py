@@ -16,6 +16,6 @@ def solution():
             dp[c][1] = max(dp[c-1][0], dp[c-1][2]) + stickers[1][c]
             dp[c][2] = max(dp[c-1][0], dp[c-1][1]) + stickers[0][c]
 
-        print(dp)
+        print(max(dp[-1]))
 
 solution()               
