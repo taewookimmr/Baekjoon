@@ -3,7 +3,6 @@ def solution():
     B = [e for e in input().rstrip()]
     la = len(A)
     lb = len(B)
-
     dp = [[0 for _ in range(lb+1)] for _ in range(la+1)]
     for i in range(1,la+1):
         for j in range(1,lb+1):
