@@ -1,6 +1,6 @@
 {baekjoon, {1919, string}}
 
-## 백준 19191 애너그램 만들기
+## 백준 1919 애너그램 만들기
 
 ### [문제](https://www.acmicpc.net/problem/1919)
  
