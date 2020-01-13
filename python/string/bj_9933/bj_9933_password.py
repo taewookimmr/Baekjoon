@@ -1,10 +1,11 @@
 def solution():
     n = int(input())
-    tank=[input().rstrip()]
-    for _ in range(n):
-        temp = input().rstrip()
-        if  len(temp)%2 and (temp[::-1] in tank or temp==temp[::-1]):
-            print(len(temp), temp[len(temp)//2])
-        else:
-            tank.append(temp)
+    words =list()
+    for i in range(n):
+        words.append(input())
+    for word in words:
+        if word[::-1] in words:
+            print(len(word), word[int(len(word)/2)])
+            break
+
 solution()
