@@ -1,7 +1,7 @@
 package app;
 import java.util.Scanner;
 
-public class App {
+public class Bj1509 {
 
     public static boolean[][] answerAry;
 	
