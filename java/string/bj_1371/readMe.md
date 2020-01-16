@@ -1,4 +1,4 @@
-{baekjoon, {1100, string}}
+{baekjoon, {1371, string}}
 
 ## 백준 1371 가장 많은 글자
 

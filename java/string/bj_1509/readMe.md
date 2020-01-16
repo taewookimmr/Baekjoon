@@ -1,4 +1,4 @@
-{baekjoon, {1100, string}}
+{baekjoon, {1509, string}}
 
 ## 백준 1509 팰린드롬 분할
 
