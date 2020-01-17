@@ -5,3 +5,4 @@
 ### [문제](https://www.acmicpc.net/problem/10769)
  
 
+* count함수를 사용하였다.

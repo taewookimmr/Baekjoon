@@ -4,4 +4,4 @@
 
 ### [문제](https://www.acmicpc.net/problem/1062)
  
-### 코드
+### 아직 못 품
