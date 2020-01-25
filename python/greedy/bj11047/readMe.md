@@ -2,4 +2,6 @@
 
 ## [동전0](acmicpc.net/problem/11047)
 
-## 접근법
+## Approach
+
+* 큰 단위의 동전을 최대한 사용한다. 
