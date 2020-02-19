@@ -1,6 +1,6 @@
 {baekjoon, {11047, greedy}}
 
-## [동전0](acmicpc.net/problem/11047)
+## [동전0](https://www.acmicpc.net/problem/11047)
 
 ## Approach
 
